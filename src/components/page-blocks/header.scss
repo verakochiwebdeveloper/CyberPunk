@@ -1,0 +1,18 @@
+.header__wrapper {
+  position: absolute; /* Позволяет разместить блок поверх слайдера */
+  top: 20px; /* Отступ сверху */
+  left: 20px; /* Отступ слева */
+  z-index: 10; /* Убедитесь, что блок выше по слоям */
+
+  padding: 10px; /* Отступы внутри блока */
+  border-radius: 5px; /* Закругленные углы */
+}
+
+.splide__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px; /* Высота слайдов */
+  width: 1920px;
+  font-size: 2rem; /* Размер шрифта */
+}
